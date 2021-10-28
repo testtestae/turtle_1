@@ -1,4 +1,24 @@
 import turtle
 t = turtle.Turtle()
+s= turtle.Screen()
+turtle.fillcolor('red')
+turtle.begin_fill()
+turtle.end_fill()
+colors = ['red']
+n = 0
+t.color(colors[n])
 t.forward(100)
-turtle.mainloop
+t.left(90)
+t.fd(100)
+t.lt(90)
+t.fd(100)
+t.lt(90)
+t.fd(100)
+t.left(100)
+t.lt(170)
+t.fd(100)
+t.rd(45)
+t.fd(100)
+t.rd(45)
+t.fd(100)
+turtle.mainloop()
